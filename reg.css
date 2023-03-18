@@ -1,0 +1,76 @@
+body {
+    background: url(https://64.media.tumblr.com/122dd0ed5e70349d40581c66e5d95c32/50c85086c25135c2-cd/s400x600/2c66f69e7f5df1a99cdb549642fc0c4b61f30f19.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header, footer {
+    background-color: #eee;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+input[type="text"], input[type="email"], input[type="password"], button[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
